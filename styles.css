@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.holder{
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-between;
+	align-items: center;
+
+	row-gap:1vh;
+}
+.item{
+	width: 200px;
+	height: 200px;
+	background-color: rgba(50, 100, 200, 0.5);
+}
